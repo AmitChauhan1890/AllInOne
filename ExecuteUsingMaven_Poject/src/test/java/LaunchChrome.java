@@ -34,5 +34,7 @@ public class LaunchChrome {
 		System.out.println(driver.getTitle());
 		driver.get("http://youtube.com");
 		System.out.println(driver.getTitle());
+		driver.get("http://fonts.com");
+		System.out.println(driver.getTitle());
 	}
 }
