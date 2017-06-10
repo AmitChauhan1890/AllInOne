@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master" parallel="false">
+
+	<test name="getMultipleTitles">
+		<parameter name="browserName" value="chrome"/>
+			<classes>
+				<class name="LaunchChrome"/>
+			</classes>
+	</test>
+	
+</suite>
